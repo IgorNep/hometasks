@@ -337,16 +337,44 @@ text-decoration:underline;
 /*Mobile devices*/
 @media (max-width: 575px){}
 
+
+
+
+
+
+
+
 /* phablets*/
 @media (min-width: 576px) and (max-width: 767px){}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*tablets*/
 @media (min-width: 768px) and (max-width: 991px){}
 
+
+
+
+
+
+
+
+
+
+
+
 /*laptop*/
 @media (min-width: 992px) and (max-width:1199px){}
 
-/*desktop*/ 
-@media (min-width:1200px ) {}
+
 
