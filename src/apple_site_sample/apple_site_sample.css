@@ -1,0 +1,352 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+html{
+	font-family:'SF Pro display', sans-serif;
+	font-size: 16px;
+}
+body{
+	mix-height:100vh;
+
+}
+input,
+button,
+ a{
+	outline: none;
+	font-size: 1rem;
+}
+a{
+	text-decoration: none;
+}
+
+.global-nav{
+	background: #000;
+	width: 100%;
+	height: 50px;
+
+}
+.global-nav__content{
+	max-width: 990px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin:0 auto;
+
+
+}
+
+.global-nav__link{
+	text-decoration: none;
+	color: #fff;
+	transition:  opacity 200ms;
+	margin: 0 10px;
+}
+.global-nav__link:hover{	
+	opacity: 0.65;
+}
+.content-nav{
+width: 100%:;
+background: #F7F7F7;
+height: 110px;
+}
+
+.content-nav__content{
+	max-width: 800px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+	align-items: center;
+}
+
+.content-nav__link{
+	margin:0 10px;
+	color: rgba(0,0,0,0.6);
+}
+.content-nav__link > img{
+	margin:0 auto;
+	display: block;
+
+}
+.content-nav__title{
+	text-align: center;
+	display: block;
+	font-size: 0.7rem;
+	margin-top: 5px;
+}
+.content-nav__title:hover{
+color: #3F7ECA;
+}
+.new{
+	color:#EF5602;
+	font-size: 0.5rem;
+	font-weight: 100;
+	text-align: center;
+	display: block;
+}
+.content-nav__link:nth-child(1),
+.content-nav__link:nth-child(2){
+	margin-top: 8px;
+}
+
+
+.main__content{
+	background: #F7F7F7;
+	margin-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.main__content_offer{
+	max-width: 990px;
+	margin:0 auto 40px;
+	text-align: center;
+
+}
+
+ h1{
+	font-size: 3.5rem;
+}
+ h2{
+	font-size: 2.5rem;
+}
+p{
+	color: #888888;
+	font-weight: 100;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.space{
+	margin-left: 30px;
+}
+
+
+.main__content_img{
+	background: url(../../assets/images/lesson_6/iphone_x_medium.jpg) ;
+    width: 981px;
+    height: 206px;
+    background-size: 981px 206px;  
+    margin:0 auto;
+	
+
+}
+
+.iphone__pink{
+	background: #F9F0EB;
+	margin-top: 10px;
+	padding-top: 50px;
+}
+.iphone__pink_title{
+	max-width: 990px;
+	margin:0 auto;
+	text-align: center;
+}
+.more{
+	font-size: 1.3rem;
+	font-weight: 100;
+	color: #0070C9;
+}
+.iphone__pink_img{
+	background: url(../../assets/images/lesson_6/iphone_8_medium_2x.jpg) ;
+    width: 611px;
+    height: 498px;
+    background-size: 611px 498px;  
+    margin:0 auto;
+    
+}
+.iphone__pink_title a{
+
+	margin-bottom: 0px; 
+}
+.general_section{
+	
+}
+
+.compare__section{	
+	max-width: 1400px;
+	display: flex;
+	align-items: center;
+	margin:10px auto;
+	background: #FAFAFA;
+
+}
+.compare__section_img{
+	background: url(../../assets/images/lesson_6/compare_medium_2x.jpg) no-repeat  center;
+	width:587px;
+    height: 449px;
+    background-size: 587px 449px; 
+    margin:20px 100px 0 20px;
+   
+}
+.compare__section_content{
+	text-align: center;
+	width: 600px;
+}
+.compare__section_content p{
+	
+
+}
+
+
+
+.step__section{
+	max-width: 1400px;
+	display: flex;
+	align-items: center;
+	margin:30px auto;
+	background: #FAFAFA;
+	justify-content: space-between;
+	padding:80px 0;
+
+}
+.explanation{
+	font-size: 1.3rem;
+	color: #000;
+	padding-left: 40px;
+}
+.bigStep_img{
+	background: url(../../assets/images/lesson_6/ios_large.jpg) no-repeat  left;
+	width:700px;
+    height: 527px;
+    background-size: 828px 527px; 
+    align-self: flex-end;
+    
+}
+.twoBlocks{
+	max-width: 1400px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+.accesoires{
+	width: 660px;
+	height: 520px;
+	
+	text-align: center;
+	background: #FAFAFA ;	
+	background-size: 660px 500px; 
+	padding-top: 50px;
+	position: relative;
+	overflow: hidden;
+
+
+}
+.text{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	text-align: center;
+	width: 660px;
+	padding-top: 50px;
+}
+.text h3{
+font-size: 2.5rem;
+}
+.text h4{
+	font-size: 1.7rem;
+}
+
+.accesoires img{
+	position: absolute;
+	width: 660px ;
+	height: 500px;
+	left: 0;
+	top: 170px;
+	z-index: 0;
+
+}
+.accesoires .picTwo{
+	top:100px;
+
+}
+.bigPicture{
+	background:url(../../assets/images/lesson_6/howtoshoot_large_2x.jpg)no-repeat center center;
+	min-height: 100vh;
+	background-size: 1400px 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.compareHeader{
+color: #fff;
+font-size: 3.5rem;
+}
+
+.twoBlocks__block{
+	position: relative;	
+	width: 660px;
+	height: 750px;	
+	text-align: center;
+	background: #FAFAFA ;	
+	padding-top: 50px;
+	position: relative;
+	overflow: hidden;
+
+}
+.applePay{
+	position: absolute;
+	left:0;
+	top: 360px;
+	width: 660px;
+	
+}
+.icloud{
+	position: absolute;
+	left:15px;
+	top: 370px;
+	width: 624px;
+}
+
+.footer{
+max-width: 1400px;
+background:#F2F2F2;
+height: 200px;
+padding-top: 5px;
+}
+.footer p{
+	color:  #9B9B9B;
+	font-size: 0.9rem;
+
+}
+.footer__link{
+	color:#555555;
+	padding-right: 20px;
+	padding-left: 15px;
+	border-right: 1px solid #D6D6D6;
+	font-weight: 100;
+}
+.footer__link:first-child{
+	padding-left: 0;
+}
+.footer__link:hover{
+text-decoration:underline;
+
+}
+
+
+
+/*Mobile devices*/
+@media (max-width: 575px)
+
+/* phablets*/
+@media (min-width: 576px) and (max-width: 767px)
+
+
+/*tablets*/
+@media (min-width: 768px) and (max-width: 991px)
+
+/*laptop*/
+@media (min-width: 992px) and (max-width:1199px)
+
+/*desktop*/ 
+@media (min-width:1200px ) 
+
