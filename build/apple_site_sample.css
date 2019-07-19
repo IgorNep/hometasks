@@ -182,13 +182,15 @@ p {
 
 .twoBlocks {
   max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding: 0 2%; }
 
 .accesoires {
-  width: 660px;
+  width: 49%;
   height: 520px;
   text-align: center;
   background: #FAFAFA;
@@ -203,7 +205,7 @@ p {
   left: 0;
   z-index: 1;
   text-align: center;
-  width: 660px;
+  width: 100%;
   padding: 50px 50px; }
 
 .text h3 {
@@ -232,7 +234,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10px; }
+  margin-bottom: 30px; }
 
 .compareHeader {
   color: #fff;
@@ -240,14 +242,13 @@ p {
 
 .twoBlocks__block {
   position: relative;
-  max-width: 660px;
+  width: 49%;
   height: 750px;
   text-align: center;
   background: #FAFAFA;
   padding-top: 50px;
   position: relative;
-  overflow: hidden;
-  width: 100%; }
+  overflow: hidden; }
 
 .applePay {
   position: absolute;

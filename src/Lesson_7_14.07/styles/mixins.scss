@@ -1,0 +1,32 @@
+$xs: 575px;
+$md:768px;
+
+
+@mixin absoluteCenter{
+  border:1px solid red;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+@mixin rounded($size){
+  height: $size;
+  width: $size;
+  border-radius: 50%;
+  text-align: center;
+  line-height: $size;
+}
+
+@mixin mobile {
+  @media (max-width: $xs - 1px){
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media(max-width:$md - 1px ){
+    @content;
+  }
+
+}

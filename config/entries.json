@@ -10,5 +10,11 @@
   ],
   "apple_site_sample": [
     "./src/apple_site_sample/apple_site_sample.js"
+  ],
+  "Lesson_7_14.07": [
+    "./src/Lesson_7_14.07/Lesson_7_14.07.js"
+  ],
+  "HomeTask7": [
+    "./src/HomeTask7/HomeTask7.js"
   ]
 }

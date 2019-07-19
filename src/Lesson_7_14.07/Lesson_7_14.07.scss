@@ -1,0 +1,76 @@
+@import './styles/mixins.scss';
+
+
+$childSize:400px;
+
+.child{
+
+  width: $childSize;
+  height: $childSize;
+}
+
+
+
+
+.test{
+  @include rounded(50px);
+  background: green;
+  @include tablet{
+    background: yellow;
+  }
+   @include mobile{
+     background: red;
+   }
+  
+}
+
+.parent{
+  color:green;
+  width: 2 * $childSize;
+  height:2 * $childSize;
+  &__child{
+    background-color: red; 
+    @include absoluteCenter;
+    @include rounded(200px);
+  }
+  &_dark{
+     background: black;
+    }
+    
+    }
+  
+
+
+.btn{
+  border:none;
+  background: transparent;
+  display: flex;
+  padding:20px;
+  align-items: center;
+  border-radius: 5px;
+
+  &:hover{
+    border:1px solid green;
+    .btn__title{
+      text-decoration: underline;
+    }
+  }
+  &_danger{
+    background: red;
+  }
+  &_default{
+    background: blue;
+    color: #fff;
+  }
+  &_success{
+    background:green;
+    color:#000;
+  }
+  &__title{
+    color:red;
+    font-weight: 700;
+  }
+  &__icon{
+    font-size: 2rem;
+  }
+}
