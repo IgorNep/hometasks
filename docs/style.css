@@ -181,7 +181,7 @@ body {
   .offer__img {
     width: 49%;
     height: 540px;
-    background: url(../../assets/images/hometask7/Artboard.png) no-repeat center right 60px;
+    background: url(./assets/images/hometask7/Artboard.png) no-repeat center right 60px;
     background-size: 340px 540px;
     position: absolute;
     bottom: 0;
@@ -194,7 +194,7 @@ body {
       .offer__img {
         width: 100%;
         height: 378px;
-        background: url(../../assets/images/hometask7/Artboard.png) no-repeat center right 42px;
+        background: url(./assets/images/hometask7/Artboard.png) no-repeat center right 42px;
         background-size: 238px 378px;
         position: absolute;
         bottom: 0;
@@ -272,7 +272,7 @@ body {
     width: 72px;
     height: 72px;
     border-radius: 6px;
-    background: #E8FBF2 url(../../assets/images/hometask7/shape_3.png) no-repeat center center;
+    background: #E8FBF2 url(./assets/images/hometask7/shape_3.png) no-repeat center center;
     margin-bottom: 30px; }
     @media (min-width: 576px) and (max-width: 767px) {
       .bonus__icon {
@@ -319,7 +319,7 @@ body {
         paddingt: 0px 20px; } }
 
 .icon2 {
-  background: #E8FBF2 url(../../assets/images/hometask7/shape_2.png) no-repeat center center; }
+  background: #E8FBF2 url(./assets/images/hometask7/shape_2.png) no-repeat center center; }
   @media (min-width: 576px) and (max-width: 767px) {
     .icon2 {
       width: 52px;
@@ -327,7 +327,7 @@ body {
       background-size: 32px 32px; } }
 
 .icon3 {
-  background: #E8FBF2 url(../../assets/images/hometask7/shape.png) no-repeat center center; }
+  background: #E8FBF2 url(./assets/images/hometask7/shape.png) no-repeat center center; }
   @media (min-width: 576px) and (max-width: 767px) {
     .icon3 {
       width: 52px;
@@ -640,7 +640,7 @@ body {
 .leftbar__bg {
   width: 165px;
   height: 413px;
-  background: url(../../assets/images/hometask7/rectangle-7-copy-6.png);
+  background: url(./assets/images/hometask7/rectangle-7-copy-6.png);
   margin-right: 10px;
   position: absolute;
   top: 0;
@@ -649,7 +649,7 @@ body {
     .leftbar__bg {
       width: 80px;
       height: 202px;
-      background: url(../../assets/images/hometask7/rectangle-7-copy-6.png);
+      background: url(./assets/images/hometask7/rectangle-7-copy-6.png);
       background-size: 80px 202px;
       margin-right: 5px;
       position: absolute;
@@ -659,7 +659,7 @@ body {
     .leftbar__bg {
       width: 115px;
       height: 289px;
-      background: url(../../assets/images/hometask7/rectangle-7-copy-6.png);
+      background: url(./assets/images/hometask7/rectangle-7-copy-6.png);
       background-size: 115px 289px;
       margin-right: 5px;
       position: absolute;
@@ -669,7 +669,7 @@ body {
     .leftbar__bg {
       width: 80px;
       height: 202px;
-      background: url(../../assets/images/hometask7/rectangle-7-copy-6.png);
+      background: url(./assets/images/hometask7/rectangle-7-copy-6.png);
       background-size: 80px 202px;
       margin-right: 5px;
       position: absolute;
@@ -794,7 +794,7 @@ body {
 .card__bg {
   height: 40px;
   width: 18px;
-  background: url(../../assets/images/hometask7/rectangle_for_card.png);
+  background: url(./assets/images/hometask7/rectangle_for_card.png);
   background-size: 18px 40px;
   position: absolute;
   top: 85px;
@@ -837,7 +837,7 @@ body {
       left: 35px; } }
 
 .card__bg_active {
-  background: url(../../assets/images/hometask7/rectangle_active.png);
+  background: url(./assets/images/hometask7/rectangle_active.png);
   height: 40px;
   width: 18px;
   background-size: 18px 40px;
