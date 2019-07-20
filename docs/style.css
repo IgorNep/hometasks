@@ -181,7 +181,7 @@ body {
   .offer__img {
     width: 49%;
     height: 540px;
-    background: url(./assets/images/hometask7/Artboard.png) no-repeat center right 60px;
+    background: url(assets/images/hometask7/Artboard.png) no-repeat center right 60px;
     background-size: 340px 540px;
     position: absolute;
     bottom: 0;
