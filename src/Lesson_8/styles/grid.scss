@@ -1,0 +1,66 @@
+$devices-width: (
+  "lg": 1600px,
+  "md": 1024px,
+  "sm": 768px,
+  "xs": 575px
+);
+
+$col-counts: 12;
+$min-col-size: 100% / $col-counts;
+
+@mixin media-breakpoint-down($name, $breakpoints: $devices-width) {
+    $max: map-get($breakpoints, $name);
+    @if $max {
+      @media (max-width: $max - 1px) {
+        @content;
+      }
+    } @else {
+      @content;
+    }
+  }
+
+@function breakpoint-infix($name) {
+    @return if($name == null, "", "-#{$name}");
+  }
+
+@mixin createCols($i, $infixName: null) {
+  $size: $min-col-size * $i;
+  $infix: breakpoint-infix($infixName);
+  @if not($i == 0) {
+    .col#{$infix}-#{$i} {
+      flex-basis: $size;
+      width: $size;
+      max-width: $size;
+    }
+  }
+}
+
+@mixin generateGrid {
+  [class*="col-"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0.312rem 0.312rem;
+    position: relative;
+    min-height: 1px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    word-break: break-word;
+  }
+
+  @for $i from 0 through $col-counts {
+    @include createCols($i);
+  }
+  @each $sizeName, $size in $devices-width {
+    @include media-breakpoint-down($sizeName, $devices-width) {
+      @for $i from 0 through $col-counts {
+        @include createCols($i, $sizeName);
+      }
+    }
+  }
+}
+
+@include generateGrid;

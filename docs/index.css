@@ -1,5 +1,21 @@
 body {
-  background: red; }
+  background:lightcoral;
+  text-align:center;
+font-size: 22px;
+ 
+}
+
+a{display:block;
+  text-decoration:none;
+ 
+  color:black;
+  font-weight: bold;
+  transition: color 0.1s ease-in-out;
+}
+a:hover{
+  text-decoration: underline;
+  color:#fff;
+}
 
 
 /*# sourceMappingURL=index.css.map*/

@@ -16,5 +16,8 @@
   ],
   "HomeTask7": [
     "./src/HomeTask7/HomeTask7.js"
+  ],
+  "Lesson_8": [
+    "./src/Lesson_8/Lesson_8.js"
   ]
 }

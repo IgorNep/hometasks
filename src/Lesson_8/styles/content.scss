@@ -1,0 +1,13 @@
+.content{
+  
+  
+  &__item{
+    height: 200px;
+    background: red;
+    border:1px solid green;
+    &:nth-child(odd){
+          background:aqua;       
+      } 
+      
+  }
+}

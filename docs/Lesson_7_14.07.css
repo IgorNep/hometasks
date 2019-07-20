@@ -1,0 +1,75 @@
+.child {
+  width: 400px;
+  height: 400px; }
+
+.test {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  background: green; }
+
+@media (max-width: 767px) {
+  .test {
+    background: yellow; } }
+
+@media (max-width: 574px) {
+  .test {
+    background: red; } }
+
+.parent {
+  color: green;
+  width: 800px;
+  height: 800px; }
+
+.parent__child {
+  background-color: red;
+  border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px; }
+
+.parent_dark {
+  background: black; }
+
+.btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-radius: 5px; }
+
+.btn:hover {
+  border: 1px solid green; }
+
+.btn:hover .btn__title {
+  text-decoration: underline; }
+
+.btn_danger {
+  background: red; }
+
+.btn_default {
+  background: blue;
+  color: #fff; }
+
+.btn_success {
+  background: green;
+  color: #000; }
+
+.btn__title {
+  color: red;
+  font-weight: 700; }
+
+.btn__icon {
+  font-size: 2rem; }
+
+
+/*# sourceMappingURL=Lesson_7_14.07.css.map*/
